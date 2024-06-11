@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first, .second, .third, .fourth, .fifth{
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    
+    
+}
+
+.first{
+    background-image: url('./lotus-978659_1280.jpg');
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 40px;
+    /* font-weight: bold; */
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: "Poppins", sans-serif;
+    text-transform:capitalize;
+    text-align: center;
+    font-style: italic;
+    text-shadow:2px 2px 3px red;
+    font-variant: small-caps;
+    
+}
+.second{
+    background-image: url('./butterfly-1679972_1280.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+.third{
+    background-image: url('./auto-2179220_1280.jpg');
+    background-repeat: no-repeat;
+}
+
+.fourth{
+    background-image: url('./stars-2616537_1280.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.fifth{
+    background-image: url('./waterdrop-6905894_1280.jpg');
+    background-repeat: no-repeat;
+}
